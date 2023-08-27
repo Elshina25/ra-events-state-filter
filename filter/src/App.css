@@ -1,0 +1,29 @@
+.App {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+button {
+  margin: 2px;
+  height: 25px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.active {
+  background-color: rgb(109, 109, 109);
+  color: white;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  margin: 5px 5px 5px 0;
+}
